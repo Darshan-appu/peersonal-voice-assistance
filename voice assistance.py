@@ -46,10 +46,6 @@ if __name__ == '__main__':
             elif "who created you" in data1:
                 age = "darshan build me today"
                 speechtx(age)
-                
-            elif "kothi" in data1:
-                name = "yoshik is kothi"
-                speechtx(name)
 
             elif 'time' in data1:
                 current_time = datetime.datetime.now().strftime("%I:%M %p")
